@@ -1,6 +1,6 @@
 Project Name -> Myntra functional clone
 
-Project Description ->  Developed a E-commerece web application enabling user to add items to a shopping cart,and show the bag total
+Project Description ->  Developed a E-commerece web application enabling user to add items to a shopping cart, and Evaluate the correct amount of Products
 
 Technologies Used -> JavaScript, HTML, CSS
 
