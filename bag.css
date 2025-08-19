@@ -1,0 +1,375 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    border-bottom: 1px solid #b6b1b1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    user-select: none;
+} 
+.logo-box{
+    margin-left: 25px;
+}
+.Myntra-logo{
+    width: 45px;
+}
+.nav-bar{
+    width: 490px;
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+} 
+.nav-bar a{
+    font-size: 15px;
+    color: #282c3f;
+    text-decoration: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    padding: 26px 0;;
+}
+.action-bar{
+    margin-right: 25px;
+}
+.serach-bar{
+    min-width: 210px;
+    width: 30%;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    background-color: #f5f5f6;
+    border-radius: 2px;
+    padding-left: 5px;
+    margin-left: 5px;
+}
+input{
+    color: rgb(135, 126, 126);
+    flex-grow: 1;
+    height: 30px;
+    padding-left: 10px;
+    text-transform: capitalize;
+    outline: none;
+    background-color: #f5f5f6;
+    border: 0;
+}
+.action-bar{
+    min-width: 200px;
+    display: flex;
+    margin-left: 5px;
+    justify-content: space-between;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.action-bar img{
+    margin-left: 18px;
+}
+.action-bar p{
+    font-size: 15px;
+}
+.bag_item_count{
+    background-color: rgb(243, 100, 100);
+    white-space: nowrap;
+    text-align: center;
+    line-height: 19px;
+    height: 17px;
+    width: 17px;
+    padding: 0 5px;
+    position: relative;
+    border-radius: 50%;
+    font-size: 10px;
+    color: #fff;
+    left: 13px;
+    top: -44px;
+}
+.action-card{
+    text-decoration: none;
+    color: black
+}
+/* main css */
+.bag-page{
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex-wrap: wrap; 
+    cursor: pointer;
+}
+.bag-items-box{
+  display: inline-block;
+  width: 64%;
+  padding-top: 32px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  color: #282c3f;
+  font-size: 13px;
+  line-height: 1.42857143;
+  margin-right: 100px;
+}
+.bag-item-box{
+    width: 350px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+    border: 1px solid rgb(212, 209, 209);
+}
+.bag-product-img{
+    width: 100px;
+    margin: 10px;
+}
+.right-item-box{
+    text-transform: capitalize;
+    color: gray;
+    margin-top: 10px;
+    line-height: 30px;
+    position: relative;
+}
+.old-price{
+    text-decoration: line-through;
+}
+.return-days,.delivery-date{
+    color: black;
+}
+.price-footer{
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-top: 20px;
+    margin-left: 62px;
+}
+.total-value{
+    margin-left: 87px;
+}
+.company-name{
+    text-transform: uppercase;
+    color: black;
+}
+.bag-info-box{
+    width: 350px;
+    height: auto;
+    padding: 20px;
+    margin-top: 50px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    line-height: 25px;
+    border: 1px solid rgb(212, 209, 209);
+}
+.price-header{
+    text-transform: uppercase;
+    color: gray;
+}
+.place-order{
+    width: 300px;
+    padding: 10px;
+    text-transform: uppercase;
+    color: whitesmoke;
+    margin: 10px;
+    background-color: tomato;
+    border: none;
+    cursor: pointer;
+    margin-left: 30px;
+}
+.place-order:hover{
+    background-color: rgb(242, 142, 125);
+}
+.product-price{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+} 
+.product-real-value{
+    margin-left: 70px;
+} 
+.discount-value{
+    color: rgb(139, 221, 139);
+    text-decoration: line-through;
+}
+#disss{
+    margin-left: 10px;
+}
+.remove-from-cart {
+  position: absolute;
+  font-size: 20px;
+  top: 10px;
+  right: 5px;
+  width: 10px;
+  height: 10px;
+  cursor: pointer;
+}
+.remove-from-cart:hover{
+    color: black;
+}
+
+/* footer css */
+.footer-box{
+    background-color: #fafbfc;
+    padding: 30px 0px 40px 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer-col{
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    padding: 8px;
+}
+.footer-col h3{
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.footer-col a{
+    text-transform: capitalize;
+    text-decoration: none;
+    cursor: pointer;
+    color: #696b79;
+}
+.copyright{
+    display: flex;
+    color: #696b79;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    cursor: pointer;
+}
+/* media querires */
+@media (max-width:915px){
+    header{
+       background-color:rgb(212, 137, 162);
+       height: 90px;
+    }
+ .nav-bar{
+     position: absolute;
+     top:43px;
+     left:10px;
+   }
+  .serach-bar{
+     width: 200px;
+     position: absolute;
+     top:10px;
+     left:70px;
+     border-radius: 10px;
+     overflow: hidden;
+    }
+  input{
+     width: 150px;
+   }
+  .action-bar{
+     position: absolute;
+     top: 10px;
+     left:400px;
+   }
+  .logo-box{
+     position: absolute;
+     top:10px;
+     left:-2px;
+   }
+}
+@media (max-width:608px){
+    header{
+        background-color: pink;
+    }
+    .action-bar{
+     position: absolute;
+     top: 10px;
+     left:300px;
+   }
+ .serach-bar{
+     min-width:150px;
+     border-radius: 10px;
+  }
+ input{
+     width: 90px;
+     border-radius: 10px;
+   }
+}
+@media (max-width:512px){
+  header{
+        background-color: plum;
+    }
+ .action-bar{
+     position: absolute;
+     top: 10px;
+     left:230px;
+    }
+ .serach-bar{
+     width:120px;
+     border-radius: 10px;
+   }
+ input{
+     width: 60px;
+     border-radius: 10px;
+   }
+ .Myntra-logo{
+     width: 40px;
+   }
+ .logo-box{
+     position: absolute;
+     top: 15px;
+   }
+ .change{
+     visibility: hidden;
+   }
+}
+@media (max-width:443px){
+    header{
+        background-color: palevioletred;
+        height: 100px;
+        padding: 5px;
+    }
+    .change{
+        visibility: hidden;
+    }
+    .user-profile{
+        visibility: hidden;
+    }
+    .action-bar{
+        position: absolute;
+        top: 50px;
+        left:100px;
+    }
+    .nav-bar{
+      position: absolute;
+      top:55px;
+      left:100px;
+      font-size: 12px;
+    }
+  .serach-bar{
+      min-width:230px;
+      border-radius: 10px;
+    }
+  input{
+     width: 150px;
+     border-radius: 10px;
+   }
+ .logo-box{
+     position: absolute;
+     top:6px;
+     left:-2px;
+   }
+ .serach-bar{
+     position: absolute;
+     top:6px;
+     left:70px;
+   }
+ .nav-bar a{
+     font-size: 12px;
+   }
+}
+
+
+
+    
+
